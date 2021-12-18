@@ -21,13 +21,19 @@ body {
 }
 /* section header */
 
-header {
-  background-color: rgb(110, 96, 96);
+.header-wrap {
+  /* background-color: rgb(110, 96, 96); */
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 30%;
+  z-index: 2;
 }
 .header-logo {
   display: flex;
   align-items: center;
   padding-top: 15px;
+  padding-bottom: 17px;
 }
 .header-icon {
   display: flex;
@@ -35,6 +41,9 @@ header {
 .header-contact {
   display: flex;
   margin-left: auto;
+}
+.header-list-contact + .header-list-contact {
+  padding-left: 33px;
 }
 .logo-name {
   display: block;
@@ -48,6 +57,7 @@ header {
   margin-right: 20px;
 }
 .logo-tour {
+  display: block;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.16;
@@ -55,11 +65,13 @@ header {
 }
 .header-tel,
 .header-mail {
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3;
   color: #ffffff;
+  vertical-align: center;
 }
 .icon-tel,
 .icon-mail {
@@ -77,16 +89,32 @@ header {
   cursor: pointer;
   background: transparent;
   padding: 12px 30px;
+  margin-left: 45px;
+}
+/* header navagation */
+.header-navigation {
+  display: flex;
+}
+.nav-link + .nav-link {
+  padding-left: 32px;
+}
+.header-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #ffffff;
 }
 
 /* section hero */
 .hero {
+  position: relative;
   background-image: url(/images/hero-img.jpg);
   padding-top: 226px;
   padding-bottom: 33px;
   max-width: 1920px;
   margin: 0 auto;
 }
+
 .hero-heading {
   font-family: PT Serif;
   font-weight: 700;
@@ -123,6 +151,10 @@ header {
   border-radius: 50%;
   margin: auto;
 }
+/* .hero-icon {
+  display: inline-block;
+  padding: 11px 13px;
+} */
 
 .visually-hidden {
   position: absolute;

@@ -19,7 +19,7 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
+        <div class="container header-wrap">
             <div class="header-logo">
                 <a href="" class="header-icon">
                     <img src="./images/header/logo.svg" alt="Логотип копании">
@@ -29,14 +29,14 @@
                     </div>
                 </a>
                 <ul class="header-contact">
-                    <li>
+                    <li class="header-list-contact">
                         <a href="tel:8-924-3-541-540" class="header-tel">
                             <svg class="icon-tel" width='24' height='24'>
                                 <use href="/images/main-icons.svg#icon-phone"></use>
                             </svg>
                             8-924-3-541-540</a>
                     </li>
-                    <li><a href="mailto:baikalholiday@mail.ru" class="header-mail">
+                    <li class="header-list-contact"><a href="mailto:baikalholiday@mail.ru" class="header-mail">
                             <svg class="icon-mail" width='24' height='24'>
                                 <use href="/images/main-icons.svg#icon-envelope"></use>
                             </svg>
@@ -44,13 +44,13 @@
                 </ul>
                 <button type="button" class="header-button">Оставить заявку</button>
             </div>
-            <nav>
-                <ul class="">
-                    <li><a href="">Бронирование</a></li>
-                    <li><a href="">Экскурсии</a></li>
-                    <li><a href="">Туры на Байкал</a></li>
-                    <li><a href="">О Байкале</a></li>
-                    <li><a href="">О нас</a></li>
+            <nav class="">
+                <ul class="header-navigation">
+                    <li class="nav-link"><a href="" class="header-nav-link">Бронирование</a></li>
+                    <li class="nav-link"><a href="" class="header-nav-link">Экскурсии</a></li>
+                    <li class="nav-link"><a href="" class="header-nav-link">Туры на Байкал</a></li>
+                    <li class="nav-link"><a href="" class="header-nav-link">О Байкале</a></li>
+                    <li class="nav-link"><a href="" class="header-nav-link">О нас</a></li>
                 </ul>
             </nav>
         </div>
@@ -64,7 +64,11 @@
                 <p class="hero-text">Туры по самому красивому месту России.
                     Поехали с нами за новыми впечатлениями!</p>
                 <a href="#" class="hero-btn">подобрать тур</a>
-                <a href="#" class="hero-link"></a>
+                <a href="#" class="hero-link">
+                    <svg class="hero-icon" width='15' height='30'>
+                        <use href="/images/main-icons.svg#icon-arrow-down"></use>
+                    </svg>
+                </a>
             </div>
         </section>
         <!-- Tour -->
