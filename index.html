@@ -18,26 +18,42 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <a href="">
-            <img src="./images/header/logo.svg" alt="Логотип копнии">
-            Байкальский отдых
-            Турагентство
-        </a>
-        <ul>
-            <li><a href="tel:8-924-3-541-540">8-924-3-541-540</a></li>
-            <li><a href="mailto:baikalholiday@mail.ru">baikalholiday@mail.ru</a></li>
-        </ul>
-        <button type="button">Оставить заявку</button>
-        <nav>
-            <ul>
-                <li><a href="">Бронирование</a></li>
-                <li><a href="">Экскурсии</a></li>
-                <li><a href="">Туры на Байкал</a></li>
-                <li><a href="">О Байкале</a></li>
-                <li><a href="">О нас</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header-logo">
+                <a href="" class="header-icon">
+                    <img src="./images/header/logo.svg" alt="Логотип копании">
+                    <div class="header-lodo">
+                        <span class="logo-name">Байкальский отдых</span>
+                        <span class="logo-tour">Турагентство</span>
+                    </div>
+                </a>
+                <ul class="header-contact">
+                    <li>
+                        <a href="tel:8-924-3-541-540" class="header-tel">
+                            <svg class="icon-tel" width='24' height='24'>
+                                <use href="/images/main-icons.svg#icon-phone"></use>
+                            </svg>
+                            8-924-3-541-540</a>
+                    </li>
+                    <li><a href="mailto:baikalholiday@mail.ru" class="header-mail">
+                            <svg class="icon-mail" width='24' height='24'>
+                                <use href="/images/main-icons.svg#icon-envelope"></use>
+                            </svg>
+                            baikalholiday@mail.ru</a></li>
+                </ul>
+                <button type="button" class="header-button">Оставить заявку</button>
+            </div>
+            <nav>
+                <ul class="">
+                    <li><a href="">Бронирование</a></li>
+                    <li><a href="">Экскурсии</a></li>
+                    <li><a href="">Туры на Байкал</a></li>
+                    <li><a href="">О Байкале</a></li>
+                    <li><a href="">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- Hero -->
