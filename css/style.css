@@ -100,7 +100,7 @@ body {
   display: flex;
 }
 .nav-link + .nav-link {
-  padding-left: 32px;
+  margin-left: 32px;
 }
 .header-nav-link {
   font-weight: 400;
