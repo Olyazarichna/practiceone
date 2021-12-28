@@ -301,3 +301,18 @@ body {
   padding-bottom: 85px;
   background-color: rgba(63, 169, 245, 0.07);
 }
+/* offer */
+.offer-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+/* .offer-list:nth-child(3){
+
+} */
+.offer:nth-child(3) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
