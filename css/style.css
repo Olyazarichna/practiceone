@@ -108,7 +108,7 @@ body {
 /* section hero */
 .hero {
   position: relative;
-  background-image: url(/images/hero-img.jpg);
+  background-image: url(../images/hero-img.jpg);
   padding-top: 226px;
   padding-bottom: 33px;
   max-width: 1920px;
