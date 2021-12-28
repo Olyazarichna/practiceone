@@ -41,6 +41,7 @@ body {
 }
 .header-icon {
   display: flex;
+  align-items: center;
 }
 .header-contact {
   display: flex;
@@ -197,16 +198,13 @@ body {
 }
 
 .categories-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -32px;
-  margin-bottom: -32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
 }
 
 .categories-items {
   width: 256px;
-  margin-left: 32px;
-  margin-bottom: 32px;
   border: 1px solid #d9d9de;
   border-radius: 6px;
   overflow: hidden;
@@ -237,15 +235,21 @@ body {
   margin-bottom: 50px;
 }
 .direction-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 29px 37px;
+  /* display: flex;
   flex-wrap: wrap;
   margin-right: -29px;
-  margin-bottom: -37px;
+  margin-bottom: -37px; */
 }
 .direction {
   width: 252px;
-  margin-right: 29px;
-  margin-bottom: 37px;
+  /* margin-right: 29px;
+  margin-bottom: 37px; */
+}
+.direction-icon {
+  margin-bottom: 16px;
 }
 /* фотогалерея  */
 .gallery-title {
