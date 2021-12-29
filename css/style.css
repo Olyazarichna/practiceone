@@ -301,6 +301,13 @@ body {
   background-color: rgba(63, 169, 245, 0.07);
 }
 /* offer */
+.offer-link {
+  /* position: absolute; */
+  background: linear-gradient(180deg, #000000 0%, #ffffff 48.44%, #ffffff 76.04%, #000000 100%);
+}
+.offer-container {
+  position: relative;
+}
 .offer {
   position: relative;
   padding-top: 76px;
@@ -332,14 +339,6 @@ body {
   gap: 32px;
 }
 
-.offer-container {
-  /* position: relative; */
-  /* background: linear-gradient(180deg, #000000 0%, #ffffff 48.44%, #ffffff 76.04%, #000000 100%);
-   */
-}
-.offer-link {
-  /* background: linear-gradient(180deg, #000000 0%, #ffffff 48.44%, #ffffff 76.04%, #000000 100%); */
-}
 .offer-title {
   position: absolute;
   top: 16px;
@@ -354,7 +353,6 @@ body {
   position: absolute;
   bottom: 19px;
   left: 17px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -367,9 +365,6 @@ body {
   grid-row-start: 1;
   grid-row-end: 3;
 }
-/* .offer-container {
-  background: linear-gradient(180deg, #000000 0%, #ffffff 48.44%, #ffffff 76.04%, #000000 100%);
-} */
 
 /* map */
 .map {
@@ -399,9 +394,6 @@ body {
 }
 
 /* Байкальский отдых с нами */
-.invitation {
-  /* margin-top: 75px; */
-}
 
 .invitation-title {
   font-family: PT serif;
