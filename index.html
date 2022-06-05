@@ -536,22 +536,65 @@
         <section class="form-section">
             <div class="container">
                 <h2 class="form-title">Забронируйте отдых на Байкале</h2>
-                <form action="">
 
-                    <input type="text" name="name" placeholder="Ваше имя">
-                    <input type="tel" name="phone" placeholder="Телефон">
-                    <input type="email" name="email" placeholder="E-mail">
-                    <input type="text" placeholder="Местность Байкала">
-                    <input type="text" placeholder="Количество взрослых">
-                    <input type="text" placeholder="Количество детей, их возраст">
-                    <input type="data" placeholder="Дата заезда">
-                    <input type="data" placeholder="Дата отъезда">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+                <form class="reservation-form" action="">
+                    <div class="form-wrapper">
+
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="text" name="name" placeholder="Ваше имя" autofocus>
+                        </label>
+
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="tel" name="phone" placeholder="Телефон">
+                        </label>
+
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="email" name="email" placeholder="E-mail">
+                        </label>
+
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="text" placeholder="Местность Байкала">
+                        </label>
+
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="text" placeholder="Количество взрослых">
+                        </label>
+
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="text" placeholder="Количество детей, их возраст">
+                        </label>
+                    </div>
+
+                    <div class="form-field-second">
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="data" placeholder="Дата заезда">
+                        </label>
+
+                        <label class="textarea-field">
+                            <textarea class="reservation__field-textarea" name="" id="" cols="30" rows="10"
+                                placeholder="Комментарий"></textarea>
+
+                        </label>
+                        <label for="" class="reservation__field">
+                            <input class="form-input" type="data" placeholder="Дата отъезда">
+                        </label>
+                    </div>
+
+                    <div class="form-field-third">
+                        <button class="button-form" type="submit">Отправить заявку</button>
+                        <label for="" class="reservation__field" class="checkbox-label">
+                            <input class="checkbox-checked" type="checkbox" value=""> Согласие на обработку персональных
+                            данных</input>
+
+                        </label>
+                    </div>
+
 
                 </form>
-                <button type="button">Отправить заявку</button>
-                <button type="checkbox"></button>
-                <a href="">Согласие на обработку персональных данных</a>
+            </div>
+
+
+
             </div>
         </section>
         <footer class=" footer-wrapper">
@@ -559,7 +602,7 @@
                 <ul>
                     <li>
                         <a class="footer-list" href="">Бронирование</a>
-                        <ul>
+                        <ul class="footerlist-item">
                             <li><a class="footer-list-item" href="">Отели и базы отдыха</a></li>
                             <li><a class="footer-list-item" href="">Теплоходы и катера</a></li>
                             <li> <a class="footer-list-item" href="">Транспортные услуги</a></li>
@@ -569,7 +612,7 @@
                 <ul>
                     <li>
                         <a class="footer-list" href="">Экскурсии</a>
-                        <ul>
+                        <ul class="footerlist-item">
                             <li><a class="footer-list-item" href="">Экскурсии и туры</a></li>
                             <li><a class="footer-list-item" href="">Экстрим туры</a></li>
                         </ul>
@@ -578,7 +621,7 @@
                 <ul>
                     <li>
                         <a class="footer-list" href="">Туры на Байкал</a>
-                        <ul>
+                        <ul class="footerlist-item">
                             <li><a class="footer-list-item" href="">Туры Зима-Весна</a></li>
                             <li> <a class="footer-list-item" href="">Туры Лето-Осень</a></li>
                             <li><a class="footer-list-item" href="">Туры охоты и рыбалки</a></li>
@@ -588,7 +631,7 @@
                 <ul>
                     <li>
                         <a class="footer-list" href="">О Байкале</a>
-                        <ul>
+                        <ul class="footerlist-item">
                             <li><a class="footer-list-item" href="">Карта Байкала</a></li>
                             <li><a class="footer-list-item" href="">Достопримечательности</a></li>
                             <li> <a class="footer-list-item" href="">Полезная информация</a></li>
@@ -598,12 +641,66 @@
                 <ul>
                     <li>
                         <a class="footer-list" href="">О нас</a>
-                        <ul>
+                        <ul class="footerlist-item">
                             <li><a class="footer-list-item" href="">Контакты</a></li>
                             <li><a class="footer-list-item" href="">Агентствам</a></li>
                         </ul>
                     </li>
                 </ul>
+            </div>
+            <div class="container">
+
+
+                <div class="footer-address">
+                    <ul>
+                        <li>
+                            <a class="footer-address-item" href="">Турагентство «Байкальский отдых»</a>
+                        </li>
+                        <ul>
+                            <li class="footer-item-list">
+                                © 2021. Все права защищены
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a class="footer-address-item" href="">Заказ туров и бронирование:</a>
+                        </li>
+                        <ul>
+                            <li class="footer-item-list">
+                                тел. 8-924-3-541-540
+
+                            </li>
+                            <li class="footer-item-list">
+                                e-mail: baikalholiday@mail.ru
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="footer-address-item" href="">Адрес:</a>
+                        </li>
+                        <ul>
+                            <li class="footer-item-list">
+                                г. Улан-Удэ, ул.Гражданская, 20, <br>
+                                отель «Рестон», 1 этаж
+                            </li>
+                        </ul>
+                    </ul>
+                    <div>
+                        <a class="footer-address-item footer-logo" href="">Политика конфиденциальности</a>
+                        <div class="footer-icon">
+                            <span class="design-company-icon">
+                                Дизайн
+                                <svg class="design-icon" width="52" height="22">
+                                    <use href="./images/main-icons.svg#icon-main-icon-footer"></use>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </footer>
 
