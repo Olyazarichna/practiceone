@@ -536,66 +536,48 @@
         <section class="form-section">
             <div class="container">
                 <h2 class="form-title">Забронируйте отдых на Байкале</h2>
-
-                <form class="reservation-form" action="">
-                    <div class="form-wrapper">
-
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="text" name="name" placeholder="Ваше имя" autofocus>
-                        </label>
-
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="tel" name="phone" placeholder="Телефон">
-                        </label>
-
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="email" name="email" placeholder="E-mail">
-                        </label>
-
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="text" placeholder="Местность Байкала">
-                        </label>
-
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="text" placeholder="Количество взрослых">
-                        </label>
-
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="text" placeholder="Количество детей, их возраст">
+                <form class="reservation__form">
+                    <div class="form-group__first">
+                        <label class="reservation__field"><input class="reservation__field-input" type="text"
+                                placeholder=" " /><span class="reservation__field-label">Ваше имя</span></label>
+                        <label class="reservation__field"><input class="reservation__field-input" type="tel"
+                                placeholder=" " /><span class="reservation__field-label">Телефон</span></label>
+                        <label class="reservation__field"><input class="reservation__field-input" type="email
+                            " placeholder=" " /><span class="reservation__field-label">E-mail</span></label>
+                        <label class="reservation__field"><input class="reservation__field-input" type="text"
+                                placeholder=" " /><span class="reservation__field-label">Местность
+                                Байкала</span></label>
+                        <label class="reservation__field"><input class="reservation__field-input" type="number"
+                                placeholder=" " /><span class="reservation__field-label">Количество
+                                взрослых</span></label>
+                        <label class="reservation__field"><input class="reservation__field-input" type="text"
+                                placeholder=" " /><span class="reservation__field-label">Количество детей, их
+                                возраст</span></label>
+                    </div>
+                    <div class="form-group__second">
+                        <label class="reservation__field"><input class="reservation__field-input" type="date"
+                                placeholder=" " /><span class="reservation__field-label">Дата заезда</span></label>
+                        <label class="reservation__field">
+                            <textarea class="reservation__field-input reserv-texarea" name="" id=""
+                                placeholder=" "></textarea><span
+                                class="reservation__field-label">Комментарий</span></label>
+                        <label class="reservation__field"><input class="reservation__field-input" type="date"
+                                placeholder=" " /><span class="reservation__field-label">Дата отъезда</span></label>
+                    </div>
+                    <div class="form-group__third">
+                        <button class="button-reservation" type="submit">
+                            Отправить заявку
+                        </button>
+                        <label for=""><input class="reservation__label checkbox-checked" type="checkbox" />
+                            <a class="checkbox-label" href="">Согласие на обработку персональных данных</a>
                         </label>
                     </div>
-
-                    <div class="form-field-second">
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="data" placeholder="Дата заезда">
-                        </label>
-
-                        <label class="textarea-field">
-                            <textarea class="reservation__field-textarea" name="" id="" cols="30" rows="10"
-                                placeholder="Комментарий"></textarea>
-
-                        </label>
-                        <label for="" class="reservation__field">
-                            <input class="form-input" type="data" placeholder="Дата отъезда">
-                        </label>
-                    </div>
-
-                    <div class="form-field-third">
-                        <button class="button-form" type="submit">Отправить заявку</button>
-                        <label for="" class="reservation__field" class="checkbox-label">
-                            <input class="checkbox-checked" type="checkbox" value=""> Согласие на обработку персональных
-                            данных</input>
-
-                        </label>
-                    </div>
-
-
                 </form>
             </div>
+        </section>
 
 
-
-            </div>
+        </div>
         </section>
         <footer class=" footer-wrapper">
             <div class="container list-wrapper">
